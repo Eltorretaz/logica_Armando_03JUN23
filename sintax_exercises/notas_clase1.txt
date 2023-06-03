@@ -1,0 +1,30 @@
+*int = integer = entero (numero entero)
+
+*float = decimales 
+
+*array = [4,7,8]ejemplo
+
+*para separar entre lineas es printf("hola mundo\ncomo estan") ejemplo de la consola=
+hola mundo como estan (sin "\n")
+
+hola mundo
+como estan (con "\n") 
+
+* ("\") = Alt + 92
+
+*("\t") = ejemplo = printf("hola mundo\tcomo estan")
+hola mundocomo estan (sin \t)
+hola mundo      como estan (con \t)
+
+*("\\) = ejemplo =  printf("hola mundo\\como estan")
+hola mundocomo estan (sin \\)
+hola mundo\como estan (con \t\)
+
+*(" (\")  ") = ejemplo =  printf("hola mundo\"como estan\"")
+hola mundocomo estan (sin \")
+hola mundo "como estan" (con \")
+
+                    =tipos de datos= 
+*(string) = cadenas de caracteres ejemplos = "hola mundo"
+
+*(char) = caracter (1 caracter) ejemplo = "a"
