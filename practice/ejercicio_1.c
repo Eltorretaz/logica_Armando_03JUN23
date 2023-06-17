@@ -1,28 +1,23 @@
 /* hacer una funcion que dia s un numero es primo*/
 
+#include <stdio.h>
+
 int main() {
 
-int valor1;
-int valor2;
+  int valor, count=0;
 
+  printf("Ingrese un valor del divisor: ");
+  scanf("%d",&valor);
+  for (int i=valor;i>0;i--) {
+    if(valor%i==0)
+    count++;
+  }
+  if (count == 2) {
+    printf("el numero %d es primo", valor);
+  }
+  else {
+    printf("el numero %d no es primo", valor);
+  }
 
-valor1 = printf("Ingrese un valor del divisor: ");
-scanf("%d",&valor1);
-valor2 = printf("Ingrese un valor del dividendo: ");
-scanf("%d",&valor2);
-
-int residuo;
-residuo = valor1 % valor2;
-
-
-if (residuo == 0)
-{
-    printf("el numero %d es primo");
-}
-    else{
-     printf("el numero %d no es primo");
-}
-        
-
-return 0;
+  return 0;
 }
