@@ -2,7 +2,7 @@
   5.hacer una funcon que imprima n numeros primos
 */
 
-#include <stdio.h>
+#include <stdio>
 
 int main(){
   int n, x, num =0;
@@ -27,6 +27,8 @@ int main(){
       n--;
     }
   }
-
+/* 
+probando la njkjkljkljkljkljkljkljkljkljkljueva "pc btoooo
+" */
   return 0;
 }
